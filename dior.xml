@@ -13,17 +13,8 @@
 	  fetch="https://bitbucket.org/"
           revision="master" />
 
-<!-- dior -->  
-  <project name="ashishkotnala29/android_device_xiaomi_dior" path="device/xiaomi/dior" remote="ashish" revision="marshmallow" />
-  <project name="ashishkotnala29/android_kernel_xiaomi_dior" path="kernel/xiaomi/dior" remote="ashish" revision="marshmallow" />
-  <project name="ashishkotnala29/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="ashish" revision="marshmallow" />
-  <project name="sonyxperiadev/boringssl-compat" path="external/sony/boringssl-compat" remote="ashish" revision="master" />
-  <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="cm" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-eabi-UB-4.9" name="UBERTC/arm-eabi-4.9.git" remote="ubtc" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-UB-4.9" name="UBERTC/arm-linux-androideabi-4.9.git" remote="ubtc" />
-<!-- end dior -->
-
 <!-- removed -->
+  <remove-project path="external/selinux" name="platform/external/selinux" />
   <remove-project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel" />
   <remove-project path="hardware/intel/bootstub" name="platform/hardware/intel/bootstub" groups="intel" />
   <remove-project path="hardware/intel/common/bd_prov" name="platform/hardware/intel/common/bd_prov" groups="intel" />
@@ -43,5 +34,16 @@
   <remove-project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" groups="pdk,darwin,x86" clone-depth="1" remote="aosp" />
   <remove-project path="prebuilts/python/darwin-x86/2.7.5" name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin,pdk,pdk-cw-fs,pdk-fs" clone-depth="1" remote="aosp" />
 <!-- end removed -->
+
+<!-- dior -->
+  <project name="ashishkotnala29/android_platform_external_selinux" path="external/selinux" revision="master" remote="ashish" />
+  <project name="ashishkotnala29/android_device_xiaomi_dior" path="device/xiaomi/dior" remote="ashish" revision="marshmallow" />
+  <project name="ashishkotnala29/android_kernel_xiaomi_dior" path="kernel/xiaomi/dior" remote="ashish" revision="marshmallow" />
+  <project name="ashishkotnala29/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="ashish" revision="marshmallow" />
+  <project name="sonyxperiadev/boringssl-compat" path="external/sony/boringssl-compat" remote="ashish" revision="master" />
+  <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="cm" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-eabi-UB-4.9" name="UBERTC/arm-eabi-4.9.git" remote="ubtc" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-UB-4.9" name="UBERTC/arm-linux-androideabi-4.9.git" remote="ubtc" />
+<!-- end dior -->
 
 </manifest>
