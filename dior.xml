@@ -37,9 +37,9 @@
 
 <!-- dior -->
   <!--project name="ashishkotnala29/android_platform_external_selinux" path="external/selinux" revision="master" remote="ashish" /-->
-  <project name="ashishkotnala29/android_device_xiaomi_dior" path="device/xiaomi/dior" remote="ashish" revision="marshmallow" />
-  <project name="ashishkotnala29/android_kernel_xiaomi_dior" path="kernel/xiaomi/dior" remote="ashish" revision="marshmallow" />
-  <project name="ashishkotnala29/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="ashish" revision="marshmallow" />
+  <project name="ashishkotnala29/android_device_xiaomi_dior" path="device/xiaomi/dior" remote="ashish" revision="cm-13.0" />
+  <project name="ashishkotnala29/android_kernel_xiaomi_dior" path="kernel/xiaomi/dior" remote="ashish" revision="cm-13.0" />
+  <project name="ashishkotnala29/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="ashish" revision="cm-13.0" />
   <project name="sonyxperiadev/boringssl-compat" path="external/sony/boringssl-compat" remote="ashish" revision="master" />
   <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="cm" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-eabi-UB-4.9" name="UBERTC/arm-eabi-4.9.git" remote="ubtc" />
