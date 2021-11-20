@@ -10,6 +10,7 @@
   <project name="ashishkotnala29/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="ashish" revision="cm-14.1" />
   <project name="ashishkotnala29/proprietary_vendor_qcom_binaries" path="vendor/qcom/binaries" remote="ashish" revision="cm-14.1" />
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="ashish" revision="cm-14.1" />
+  <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="ashish" revision="cm-14.1" />
 <!-- end dior -->
 
 </manifest>
