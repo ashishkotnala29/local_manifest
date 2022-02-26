@@ -9,7 +9,7 @@
   <project name="ashishkotnala29/android_kernel_xiaomi_dior" path="kernel/xiaomi/dior" remote="ashish" revision="cm-14.1" />
   <project name="ashishkotnala29/android_vendor_xiaomi_dior" path="vendor/xiaomi/dior" remote="ashish" revision="mkn-mr1" />
   <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="ashish" revision="cm-14.1" />
-  <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="ashish" revision="cm-14.1" ->
+  <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="ashish" revision="cm-14.1" />
 <!-- end dior -->
 
 </manifest>
